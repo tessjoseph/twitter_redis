@@ -1,0 +1,31 @@
+<form method="POST" action="{{ url_for('views.add_transaction') }}">
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" required><br><br>
+    
+    <label for="category">Category:</label>
+    <select id="category" name="category" required>
+        <option value="food">Food</option>
+        <option value="clothes">Clothes</option>
+        <option value="household">Household</option>
+        <option value="beauty">Beauty</option>
+        <option value="transportation">Transportation</option>
+    </select><br><br>
+    
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+    
+    <input type="submit" value="Add Transaction">
+</form>
+
+<h2>Daily Spending</h2>
+<canvas id="daily-spending-chart"></canvas>
+
+<h2>Weekly Spending</h2>
+<canvas id="weekly-spending-chart"></canvas>
+
+<h2>Monthly Spending</h2>
+<canvas id="monthly-spending-chart"></canvas>
+
+<script>
+    // JavaScript code to draw charts using daily_spending, weekly_spending, and monthly_spending data
+</script>
