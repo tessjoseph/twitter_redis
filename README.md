@@ -10,8 +10,8 @@ This project is a Twitter-like application built using Redis as the backend data
 
 ## 🛠️ Technologies Used
 
-- Python 🐍
-- Redis 🔄
+- Python 
+- Redis 
 
 ## ▶️ How to Run
 
